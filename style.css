@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(red,yellow,green);
+    background-size: cover;
+    height: 100vh;
+}
+
+.btns{
+    margin-top: 45vh;
+    
+}
+
+@media (max-width:576px) {
+    .btns{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 35vh;
+        outline: none;
+    }
+}
+
+button{
+    width: 150px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: rgb(31, 109, 234);
+    color: white;
+    text-transform: capitalize;
+    border: none;
+}
